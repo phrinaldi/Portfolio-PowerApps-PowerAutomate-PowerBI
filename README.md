@@ -38,3 +38,26 @@ A HashTech decidiu implementar um sistema automatizado de gerenciamento de féri
    - Construir os dashboards em Power BI com os dados.
    - Implementar filtros e visualizações interativas para facilitar a análise
 
+---------------------------------------------------------------------------------------------------------------------------
+
+## Processo:
+
+1- O usuário entra no aplicativo e solicita as férias
+
+2- A solicitação cria um item (linha) em uma lista do Microsoft Lists
+
+3- Ao criar uma linha no Lists, é disparado o fluxo do Power Automate
+
+4- O fluxo envia um email de aprovação ou recusa das férias ao gerente
+
+5- Depois da aprovação/recusa, um email é enviado ao colaborador
+
+6- A linha é atualizada no Lists
+
+7- A tela de Acompanhamento no Power Apps é atualizada
+
+8- O gráfico de Gantt é atualizado no Power BI, que contém a representação gráfica dos requerimentos e períodos de férias
+
+
+
+
